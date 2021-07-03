@@ -1,0 +1,224 @@
+html {
+    font-family: sans-serif;
+    background-image: url(https://pbs.twimg.com/media/EVvJpmgU8AAEq2q.jpg:large);
+}
+body {
+    display: block;
+    margin: 8px;
+}
+h1 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(254, 233, 24);
+    font-weight: bold;
+    font-size: 60px;
+}
+#box {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 1rem 0.5rem;
+}
+.btn-start {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+.btn-defend {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    display: none;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(76, 175, 80);
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+    animation: 1s ease-out 0s 1 normal forwards running fade-slide-in;
+}
+.btn-attack {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    display: none;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(175, 87, 76);
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+    animation: 1s ease-out 0s 1 normal forwards running fade-slide-in;
+}
+.btn-retry-lose {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(175, 87, 76);
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+.btn-retry-win {
+    color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(222, 240, 199);
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#player-display {
+    width: 30rem;
+    text-align: center;
+    box-shadow: black 0px 2px 8px;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    background: white;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#bonus-life {
+    color: red;
+    text-align: center;
+    padding: 0.2rem 0.1rem;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+.modal-content {
+    background-color: rgb(222, 240, 199);
+    text-align: center;
+    width: 50%;
+    margin: 20% auto;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    border-image: initial;
+    display: none;
+}
+.modal-content-lose {
+    background-color: rgb(242, 53, 53);
+    text-align: center;
+    width: 50%;
+    margin: 20% auto;
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 136, 136);
+    border-image: initial;
+    display: none;
+}
+#play-box {
+    width: 30rem;
+    height: 10rem;
+    text-align: center;
+    box-shadow: black 0px 2px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(254, 233, 24);
+    border-image: initial;
+    animation: 1s ease 0s 3 normal none running blink;
+    margin: 2rem auto;
+    border-radius: 10px;
+    padding: 1rem;
+    background: white;
+}
+
+.baby-yoda {
+    max-width: 30%;
+    display: inline;
+}
+.final-vader {
+    max-width: 20%;
+}
+.obi-wan {
+    max-width: 30%;
+    display: none;
+}
+.c3po {
+    max-width: 15%;
+    display: none;
+}
+.darth {
+    max-width: 30%;
+    display: none;
+}
+.kith {
+    max-width: 25%;
+    display: none;
+}
+.luck {
+    max-width: 25%;
+    display: none;
+}
+.mace {
+    max-width: 25%;
+    display: none;
+}
+
+.tiranus {
+    max-width: 30%;
+    display: none;
+}
+.plaegis {
+    max-width: 30%;
+    display: none;
+}
+.maul {
+    max-width: 40%;
+    display: none;
+}
